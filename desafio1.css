@@ -7,14 +7,24 @@ h1{
     text-align: center;
 }
 
-#cx1{
-    background-color: aliceblue;
+.container{
+    flex-wrap: wrap;/*Para layout responsivo, quebra a linha dos itens*/
+    display: flex;/*Muito util para deixar botões mais flexiveis*/
+    justify-content: center;
+    gap: 10px;/*Da espaçamento entre os itens do container*/
+    margin-top: 20px;
+}
+
+#cx1,#cx2,#cx3{
+    background-color:aliceblue;
     width: 100px;
     height: 50px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid;
     border-radius: 5px;
-    margin: auto;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
