@@ -1,0 +1,20 @@
+body{
+    background-color: dimgray;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#cx1{
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
