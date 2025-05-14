@@ -1,0 +1,33 @@
+body{
+    background-color:darkcyan;
+    margin: 0;/* Remove margens padrões do navegador */
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+.container{
+    display: flex;/*Usar container para manipular botões junto com o flex*/
+    justify-content: center;/*Usar ambos para centralizar*/
+    align-items: center;
+}
+
+.botao{
+    color: darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
