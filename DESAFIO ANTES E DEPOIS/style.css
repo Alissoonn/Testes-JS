@@ -1,0 +1,30 @@
+body{
+    background-color: darkgreen;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.container{
+    display: flex;/*Usar container para manipular botões junto com o flex*/
+    justify-content: center;/*Usar ambos para centralizar*/
+    align-items: center;
+}
+
+.botao{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+}
