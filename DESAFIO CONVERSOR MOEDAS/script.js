@@ -19,6 +19,7 @@ if(isNaN(CotacaoDolar) || CotacaoDolar <= 0){
 }
 
     let ValoremReais = parseFloat(prompt("Quanto você tem na carteira?"));
+    //SE o "ValoremReais" for naõ for um numero OU menor que 0 
 if(isNaN(ValoremReais) || ValoremReais <= 0 ){
     alert("Por favor insira um valor");
     return;
