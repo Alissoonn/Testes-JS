@@ -14,3 +14,4 @@ res.innerHTML = (`A temperatura de ${cel} corresponde a...<br> ${kel.toFixed(2)}
 }
 
 
+//OBS* isNan significa "Is not a number"

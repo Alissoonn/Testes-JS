@@ -1,0 +1,30 @@
+body{
+    background-color: darkcyan;
+}
+
+h1{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#val{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 90vh;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 2px ;
+    border-radius: 5px;
+}
+
+#bt{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 2px ;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
