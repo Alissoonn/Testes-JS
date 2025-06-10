@@ -1,18 +1,39 @@
 body{
-    background-color:blanchedalmond
+    background-color:cornflowerblue
 }
 
 h1{
-    color:lightskyblue;
+    color:rgb(1, 64, 182);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     text-align: center;
     padding-top: 50px;
 }
 
+h2{
+    color:rgb(1, 64, 182);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#par,#par2,#par3{
+    color:rgb(1, 64, 182);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
 #bt{
-   padding-top: 20px;
-   padding-left: 100px;
+    color: rgb(1, 64, 182);;
+   background-color: white;
+   padding: 20px 20px;
+   font-size: 15px;
+   border: 2px solid;
+   border-radius: 6px;
+   cursor: pointer;
    margin:0 auto;display: block;
    text-align: center;
 }
