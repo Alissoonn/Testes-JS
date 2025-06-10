@@ -1,0 +1,18 @@
+body{
+    background-color:blanchedalmond
+}
+
+h1{
+    color:lightskyblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#bt{
+   padding-top: 20px;
+   padding-left: 100px;
+   margin:0 auto;display: block;
+   text-align: center;
+}
