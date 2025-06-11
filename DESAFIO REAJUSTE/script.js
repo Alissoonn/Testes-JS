@@ -17,4 +17,10 @@ function re(){
         return;
     }
 
+    //Pega o salario atual e multiplica pelo aumento, depois divide em 100%
+    let reajust = (sal*aumento) / 100;
+    let novSal = sal+reajust;
+
+    //Alterando o paragrafo 
+    document.getElementById("txt").innerHTML = `O salário atual era de R$${sal.toFixed(2)}`
 }
