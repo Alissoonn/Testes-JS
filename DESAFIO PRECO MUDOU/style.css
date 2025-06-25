@@ -21,9 +21,10 @@ h1{
     cursor: pointer;
 }
 
-h2{
+#txt,#F1,#F2,#F3,#F4{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     text-align: center;
     margin-top: 50px;
+    font-weight: bold;
 }
