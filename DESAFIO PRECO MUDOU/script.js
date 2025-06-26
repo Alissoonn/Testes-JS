@@ -13,7 +13,7 @@ function veri(){
         return;
     }
 
-    //Remove os paragrafos que ficaram e iniciam os novos 
+    //Remove os paragrafos que ficaram e iniciam os novos com base no ID
     let f1Antigo = document.getElementById("F1");
     if (f1Antigo) f1Antigo.remove();
     let f2Antigo = document.getElementById("F2");
@@ -30,7 +30,7 @@ function veri(){
 
 
     let frase1 = document.createElement("p");//Cria um paragrafo no HTML
-    frase1.id="F1";//Cria um ID para o paragrafo editavel no CSS
+    frase1.id="F1";//Cria um ID para o paragrafo editavel no CSS e para remoção na função acima pelo JS
     document.body.appendChild(frase1);//Anexa o paragrafo criado ao body
     frase1.innerHTML = `O produto custava R$${PreAnt.toFixed(2)} e agora custa R$${PreAtu.toFixed(2)}`//Colocando conteudo no paragrafo através do innerHTML
 

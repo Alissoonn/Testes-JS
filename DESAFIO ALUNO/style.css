@@ -1,0 +1,28 @@
+body{
+    background-color: darkolivegreen;
+}
+
+h1{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#btn{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+    margin: 0 auto;display: block;
+    padding: 30px;
+    border: solid 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#txt{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
